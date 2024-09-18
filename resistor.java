@@ -2,7 +2,7 @@ import java.util.*;
 class Resistor{
 double resistance;
 Resistor(){
-resistance=20;
+resistance=25;
 }
 Resistor(double r){
 resistance =r;
