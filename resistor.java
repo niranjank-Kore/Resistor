@@ -32,8 +32,8 @@ System.out.println("Enter the resistances:");
 r.resistance=sc.nextDouble();
 rarray[i] = r;
 }
-SeriesResistor s=new  SeriesResistor ();  
-Resistor newR = s.calculateSeries(rarray);
+SeriesResistor sr = new  SeriesResistor ();  
+Resistor newR = sr.calculateSeries(rarray);
 System.out.println(newR.resistance); 
 }
 }
